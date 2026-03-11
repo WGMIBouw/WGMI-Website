@@ -42,13 +42,13 @@ window.WGMI_PROJECTS = [
     slug: "denhaag-wanden",
     title: "Den Haag — wanden en plafond",
     location: "Den Haag",
-    cover: "assets/projects/denhaag/1.jpg",
+    cover: "assets/projects/denhaag/1.svg",
     summary: "Houten wanden volgens tekening geplaatst, geïsoleerd en afgewerkt met OSB en gipsplaten.",
     description: [
       "Bij deze nieuwbouw zijn houten wanden zorgvuldig geplaatst volgens bouwtekening.",
       "Ook het plafond is opgebouwd met houten latten als onderconstructie."
     ],
-    images: ["assets/projects/denhaag/1.jpg","assets/projects/denhaag/2.jpg","assets/projects/denhaag/3.jpg"],
+    images: ["assets/projects/denhaag/1.svg","assets/projects/denhaag/2.jpg","assets/projects/denhaag/3.jpg"],
     featured: true
   }
 ];
