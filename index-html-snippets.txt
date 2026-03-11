@@ -1,0 +1,21 @@
+PLAK DIT IN index.html OP DE PLEK VAN JE PROJECTSECTIE:
+
+<section id="projecten" class="section section-dark">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Uitgelichte projecten</p>
+      <h2>Projecten die jouw werk direct goed laten zien</h2>
+      <p>Voeg later alleen foto's toe in de juiste map en werk projectinformatie bij in projects.js.</p>
+    </div>
+    <div id="featured-projects" class="project-list"></div>
+    <div class="section-head" style="margin-top:40px;">
+      <p class="eyebrow">Alle projecten</p>
+      <h2>Portfolio</h2>
+    </div>
+    <div id="projects-grid" class="cards three"></div>
+  </div>
+</section>
+
+PLAK DIT ONDERAAN index.html, VOOR </body>:
+<script src="projects.js"></script>
+<script src="projects-render.js"></script>
