@@ -525,3 +525,16 @@ textarea { resize: vertical; }
   box-shadow: none !important;
   border: none !important;
 }
+.project-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background: transparent;
+}
+
+.project-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
