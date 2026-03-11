@@ -501,3 +501,27 @@ textarea { resize: vertical; }
     order: initial;
   }
 }
+/* Projectpagina foto's - geen witte achtergrond */
+.project-gallery {
+  background: transparent;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.project-gallery img {
+  background: transparent;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* als er een wrapper met witte box is */
+.project-images,
+.project-media,
+.gallery {
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
